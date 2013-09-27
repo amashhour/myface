@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
   # any other machines on the same network, but cannot be accessed (through this
   # network interface) by any external networks.
   chef_version = :latest 
-  config.vm.network :private_network, ip: "33.33.33.10"
+  config.vm.network :private_network, ip: "33.33.33.11"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
